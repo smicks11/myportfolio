@@ -12,7 +12,7 @@
     <!-- Page Title -->
     <title>James Peter | Front End Developer</title> 
     <!-- Favicon -->
-    <link href="https://megaone.acrothemes.com/corporate-agency/images/favicon.ico" rel="icon">
+        
     <!-- Bundle -->
     <link href="https://megaone.acrothemes.com/vendor/css/bundle.min.css" rel="stylesheet">
     <!-- Plugin Css -->
@@ -24,8 +24,12 @@
     <!-- Style Sheet -->
     <link href="https://megaone.acrothemes.com/corporate-agency/css/navigation.css" rel="stylesheet">
     <link href="https://megaone.acrothemes.com/corporate-agency/css/line-awesome.min.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="../style.css"> -->
+    <link rel="stylesheet" href="./style.css">
     <link href="https://megaone.acrothemes.com/corporate-agency/css/style.css" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="./icons.css"> -->
+
+    <script src="https://kit.fontawesome.com/7b6333be27.js" crossorigin="anonymous"></script>
     
 </head>
 
@@ -42,9 +46,9 @@
     <!--Navigation-->
     <nav class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line">
         <div class="container">
-            <a href="index-corporate-agency.html" title="Logo" class="logo scroll">
+            <a href="#" title="Logo" class="logo scroll">
                 <!--Logo Default-->
-                <img src="https://megaone.acrothemes.com/corporate-agency/images/logo.png" alt="logo" class="ml-lg-3 m-0">
+                <img src="../dist/img/renewed smicks.png"  alt="logo" class="ml-lg-3 m-0">
             </a>
 
             <!--Nav Links-->
@@ -55,7 +59,7 @@
                     <a class="nav-link scroll line" href="#portfolio">My Projects</a>
                     <a class="nav-link scroll line" href="#contact">Contact Me</a>
                     <!-- <a class="nav-link scroll line" href="#blog">Blog</a> -->
-                    <a href="#" class="btn btn-large btn-rounded btn-pink nav-button" data-animation-duration="500" data-fancybox data-src="#animatedModal">Get Started Now</a>
+                    <a href="#" class="btn btn-large btn-rounded btn-pink nav-button" data-animation-duration="500" data-fancybox data-src="#animatedModal">Let's Get Started </a>
                 </div>
             </div>
         </div>
@@ -77,15 +81,16 @@
     <!--Side Nav-->
     <div class="side-menu hidden">
 
-        <div class="mega-title" id="mega-title"><h2 class="inner-mega-title">Corporate Agency</h2></div>
+        <div class="mega-title" id="mega-title"><h2 class="inner-mega-title">Smicks Agency</h2></div>
 
         <span id="btn_sideNavClose">
           <i class="las la-times btn-close"></i>
         </span>
         <div class="inner-wrapper">
             <nav class="side-nav w-100">
-                <a href="index-corporate-agency.html" title="Logo" class="logo scroll navbar-brand">
-                    <img src="https://megaone.acrothemes.com/corporate-agency/images/logo.png" alt="logo">
+                <a href="#" title="Logo" class="logo scroll navbar-brand">
+                    <img src="../dist/img/renewed smicks.png" alt="logo">
+                    <!-- <h2 style="text-align: center;" class="logo scroll navbar-brand">SMICKS</h2> -->
                 </a>
                 <ul class="navbar-nav text-capitalize">
                     <li class="nav-item">
@@ -104,18 +109,19 @@
                         <a class="nav-link scroll" href="#blog">Blog</a>
                     </li> -->
                     <li class="get-started-btn">
-                        <a href="#" class="btn btn-medium btn-rounded btn-pink d-lg-none" data-animation-duration="500" data-fancybox data-src="#animatedModal">Get Started</a>
+                        <a href="#" class="btn btn-medium btn-rounded btn-pink d-lg-none" data-animation-duration="500" data-fancybox data-src="#animatedModal">Let's Get Started</a>
                     </li>
                 </ul>
             </nav>
 
             <div class="side-footer w-100">
                 <ul class="social-icons-simple">
-                    <li><a class="social-icon wow fadeInLeft" href="javascript:void(0)" data-wow-delay="300ms"><i class="fab fa-facebook-f"></i> </a> </li>
-                    <li><a class="social-icon wow fadeInUp" href="javascript:void(0)" data-wow-delay="500ms"><i class="fab fa-instagram"></i> </a> </li>
-                    <li><a class="social-icon wow fadeInRight" href="javascript:void(0)" data-wow-delay="300ms"><i class="fab fa-twitter"></i> </a> </li>
+                    <li><a class="social-icon wow fadeInLeft" href="https://www.facebook.com/profile.php?id=100035190880614" target="_blank" data-wow-delay="300ms"><i class="fab fa-facebook-f"></i> </a> </li>
+                    <li><a class="social-icon wow fadeInUp" href="https://twitter.com/Smicks_11" target="_blank" data-wow-delay="500ms"><i class="fab fa-twitter "></i> </a> </li>
+                    <li><a class="social-icon wow fadeInDown" href="https://www.instagram.com/j_smicks/" target="_blank" data-wow-delay="500ms"><i class="fab fa-instagram "></i> </a> </li>
+                    <li><a class="social-icon wow fadeInRight" href="https://www.linkedin.com/mwlite/in/james-peter-2b4b16167" target="_blank" data-wow-delay="300ms"><i class="fab fa-linkedin-in "></i> </a> </li>
                 </ul>
-                <p>&copy; 2020 MegaOne. Made With Love by Themesindustry</p>
+                <p>&copy; 2020 Smicks.</p>
             </div>
         </div>
     </div>
@@ -130,7 +136,7 @@
             <h2 class="main-font font-weight-600 text-white mt-2">Lets start your <span class="text-pink js-rotating">project, website</span></h2>
         </div>
         <!--Contact Form-->
-        <form class="contact-form" id="modal-contact-form-data">
+        <form method="GET" action="mailto:jamespeter2225@gmail.com" enctype="text/plain"  class="contact-form" id="modal-contact-form-data">
             <div class="row">
                 <!--Result-->
                 <div class="col-12" id="quote_result"></div>
@@ -183,10 +189,42 @@
                             <span class="checkmark"></span>
                         </label>
                     </div>
-                    <a href="javascript:void(0)" class="btn btn-medium btn-rounded btn-pink modal_contact_btn" id="quote_submit_btn">Submit Now</a>
+                    <!-- <a href="javascript:void(0)" class="btn btn-medium btn-rounded btn-pink modal_contact_btn" id="quote_submit_btn">Submit Now</a> -->
+                    <input type="submit" class="btn btn-medium green-long-btn rounded-pill w-100 btn-pink mt-4 contact_btn " id="submit_btn" value="SUBMIT NOW">
                 </div>
+
+                <input type="hidden" name="body" />
             </div>
         </form>
+        <script>
+            var form = document.getElementsByTagName('form')[0];
+            form.addEventListener('submit',contact,false);
+            function contact(e) {
+               // Prevent Default Form Submission
+               e.preventDefault();
+         
+               var target = e.target || e.srcElement;
+               var i = 0;
+               var message = '';
+         
+               // Loop Through All Input Fields
+               for(i = 0; i < target.length; ++i) {
+                  // Check to make sure it's a value. Don't need to include Buttons
+                  if(target[i].type != 'text' && target[i].type != 'textarea') {
+                         // Skip to next input since this one doesn't match our rules
+                     continue;
+                  }
+         
+                  // Add Input Name and value followed by a line break
+                  message += target[i].name + ': ' + target[i].value + "\r\n";
+               }
+               // Modify the hidden body input field that is required for the mailto: scheme
+               target.elements["body"].value = message;
+         
+               // Submit the form since we previously stopped it. May cause recursive loop in some browsers? Should research this.
+               this.submit();
+            }
+         </script>
     </div>
 </header>
 <!-- END HEADER -->
@@ -298,7 +336,7 @@
                          data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;"
                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
                          data-start="1000" data-splitin="none" data-splitout="none">
-                        <p class="text-white alt-font font-18">I'm a self-taught Front End Developer and school-taught Systems Engineer from Lagos, Nigeria,<br> with about three years of experience building web applications.</p>
+                        <p class="text-white alt-font font-18">I'm a self-taught Front End Developer <br>and school-taught Systems Engineer from Lagos, Nigeria,<br> with about three years of experience building web applications.</p>
                     </div>
                     <!-- LAYER NR. 5 -->
                     <div class="tp-caption tp-resizeme"
@@ -352,9 +390,9 @@
                          data-responsive_offset="on" data-start="2000"
                          data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;"
                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;">
-                        <p class="text-white alt-font font-18">I am an avid advocate of intersectionality in the tech space and accessibility in web development.
+                        <p class="text-white alt-font font-18">I am an avid advocate of intersectionality in the tech space<br> and accessibility in web development.
 
-                            <br>I'm actively involved in the tech community and I like to speak at conferences.</p>
+                            I'm actively involved in the tech<br> community and I like to speak at conferences.</p>
                     </div>
                     <!-- LAYER NR. 4 -->
                     <div class="tp-caption tp-resizeme"
@@ -371,10 +409,10 @@
         </div>
     </div>
     <ul class="social-icons social-icons-simple revicon white d-none d-md-block d-lg-block">
-        <li class="d-table"><a href="javascript:void(0)" class="social-icon"><i class="fab fa-facebook-f"></i></a> </li>
-        <li class="d-table"><a href="javascript:void(0)" class="social-icon"><i class="fab fa-twitter"></i> </a> </li>
-        <li class="d-table"><a href="javascript:void(0)" class="social-icon"><i class="fab fa-linkedin-in"></i> </a> </li>
-        <li class="d-table"><a href="javascript:void(0)" class="social-icon"><i class="fab fa-instagram"></i> </a> </li>
+        <li class="d-table"><a href="https://www.facebook.com/profile.php?id=100035190880614" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a> </li>
+        <li class="d-table"><a href="https://twitter.com/Smicks_11" target="_blank" class="social-icon"><i class="fab fa-twitter"></i> </a> </li>
+        <li class="d-table"><a href="https://www.linkedin.com/mwlite/in/james-peter-2b4b16167" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i> </a> </li>
+        <li class="d-table"><a href="https://www.instagram.com/j_smicks/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i> </a> </li>
     </ul>
 </div>
 <!--scroll down-->
@@ -559,6 +597,19 @@
                 </div>
 
                 <ul class="da-thumbs gallery">
+                    <!-- First Image -->
+                    <li class="items Business Medical Agencies">
+                        <img src="../dist/img/Screen Shot 2020-12-11 at 14.50.00.jpg" alt="img">
+                        <a href="http://noveautech.eu-west-1.elasticbeanstalk.com/" target="_blank" class="text-center" >
+                            <div class="overlay">
+                                <div>
+                                    <div class="search-icon"><i class="fa fa-search"></i></div>
+                                    <h4 class="">Loan App</h4>
+                                    <!-- <span>New York, USA</span> -->
+                                </div>
+                            </div>
+                        </a>
+                    </li>
                     <!-- First Image -->
                     <li class="items Business Medical Agencies">
                         <img src="../dist/img/Screen Shot 2020-11-24 at 17.24.27.jpg" alt="img">
@@ -893,7 +944,7 @@
             </div>
 
             <div class="col-12 col-lg-6 contact-form-box">
-                <form class="contact-form" id="contact-form-data">
+                <form method="GET" action="mailto:jamespeter2225@gmail.com" enctype="text/plain"  class="contact-form" id="contact-form-data">
                     <div class="row">
                         <!-- Submission Popup -->
                         <div class="col-12">
@@ -926,10 +977,40 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <button type="button" class="btn btn-medium green-long-btn rounded-pill w-100 btn-pink mt-4 contact_btn" id="submit_btn">SUBMIT REQUEST</button>
+                            <button type="button submit" class="btn btn-medium green-long-btn rounded-pill w-100 btn-pink mt-4 contact_btn" id="submit_btn">SUBMIT REQUEST</button>
                         </div>
+                        <input type="hidden" name="body" />
                     </div>
                 </form>
+                <script>
+                    var form = document.getElementsByTagName('form')[0];
+                    form.addEventListener('submit',contact,false);
+                    function contact(e) {
+                       // Prevent Default Form Submission
+                       e.preventDefault();
+                 
+                       var target = e.target || e.srcElement;
+                       var i = 0;
+                       var message = '';
+                 
+                       // Loop Through All Input Fields
+                       for(i = 0; i < target.length; ++i) {
+                          // Check to make sure it's a value. Don't need to include Buttons
+                          if(target[i].type != 'text' && target[i].type != 'textarea') {
+                                 // Skip to next input since this one doesn't match our rules
+                             continue;
+                          }
+                 
+                          // Add Input Name and value followed by a line break
+                          message += target[i].name + ': ' + target[i].value + "\r\n";
+                       }
+                       // Modify the hidden body input field that is required for the mailto: scheme
+                       target.elements["body"].value = message;
+                 
+                       // Submit the form since we previously stopped it. May cause recursive loop in some browsers? Should research this.
+                       this.submit();
+                    }
+                 </script>
             </div>
         </div>
     </div>
@@ -956,12 +1037,12 @@
             <div class="col-12 text-center">
                 <div class="footer-social">
                     <ul class="list-unstyled social-icons social-icons-simple">
-                        <li><a class="social-icon wow fadeInUp" href="javascript:void(0)"><i class="fab fa-facebook-f" aria-hidden="true"></i> </a> </li>
-                        <li><a class="social-icon wow fadeInDown" href="javascript:void(0)"><i class="fab fa-twitter" aria-hidden="true"></i> </a> </li>
-                        <li><a class="social-icon wow fadeInUp" href="javascript:void(0)"><i class="fab fa-google-plus-g" aria-hidden="true"></i> </a> </li>
-                        <li><a class="social-icon wow fadeInDown" href="javascript:void(0)"><i class="fab fa-linkedin-in" aria-hidden="true"></i> </a> </li>
-                        <li><a class="social-icon wow fadeInUp" href="javascript:void(0)"><i class="fab fa-instagram" aria-hidden="true"></i> </a> </li>
-                        <li><a class="social-icon wow fadeInUp" href="javascript:void(0)"><i class="fab fa-pinterest-p" aria-hidden="true"></i> </a> </li>
+                        <li><a class="social-icon wow fadeInUp" href="https://www.facebook.com/profile.php?id=100035190880614" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i> </a> </li>
+                        <li><a class="social-icon wow fadeInDown" href="https://twitter.com/Smicks_11" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i> </a> </li>
+                        <!-- <li><a class="social-icon wow fadeInUp" href="javascript:void(0)"><i class="fab fa-google-plus-g" aria-hidden="true"></i> </a> </li> -->
+                        <li><a class="social-icon wow fadeInDown" href="https://www.linkedin.com/mwlite/in/james-peter-2b4b16167" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i> </a> </li>
+                        <li><a class="social-icon wow fadeInUp" href="https://www.instagram.com/j_smicks/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i> </a> </li>
+                        <!-- <li><a class="social-icon wow fadeInUp" href="javascript:void(0)"><i class="fab fa-pinterest-p" aria-hidden="true"></i> </a> </li> -->
                     </ul>
                 </div>
                 <!--Text-->

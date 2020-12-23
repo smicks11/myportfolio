@@ -228,7 +228,7 @@ section{padding: 7.5rem 0;}
 /* nav top default */
 
 header a.logo img {
-    max-width: 80px;
+    max-width: 140px !important;
     vertical-align: sub;
 }
 
